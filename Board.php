@@ -35,6 +35,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/ceo.css" rel="stylesheet">
 
 </head>
 
@@ -52,27 +53,21 @@
     <!-- Navbar Start -->
     <?php require_once 'nav/nav.php' ?>
     <!-- Navbar End -->
+	
+    <div class="container"></div>
+	<section class="profile_container">
+    
+		<div class="profile_img_section">
+			<img class="profile_img-LG" src="image/ceo.png" />
+			<!-- <div class="flag_wrapper">
+				<img class="flag" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/flag-south-korea_1f1f0-1f1f7.png" alt="South Korean Flag" />
+			</div> -->
+		</div>
 
-    <br><br>
-    <section class="about" id="about">
-        <div class="container">
-            <br><br>
-            <div class="heading text-center">
-                <h2>MESSAGE FROM
-                    <span>CEO</span>
-                </h2>
-                <p> Jesada Taveesupapong
-                    <br>
-
-                    Chief Executive Officer and President
-                </p>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="image/ceo.png" alt="about" class="img-fluid" width="100%">
-                </div> <br><br>
-                <div class="col-lg-6">
-                    <h3>Throughout the period of more than 10 years, we are all
+		<div class="profile_desc_section">
+			<h2>Jesada Taveesupapong</h2>
+			<h3>CEO</h3>
+			<p class="description">Throughout the period of more than 10 years, we are all
                         dedicated and determined to create a good standard of service
                         and quality to serve all customers. In the past, despite being
                         affected by the Covid-19 situation But we are still striving to
@@ -83,12 +78,17 @@
                         We realize the importance of service so that every customer can
                         be confident that you will receive an impressive service.</p>
 
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
+			<div class="interests">
+				<span class="interests_item">Technology</span>
+				<span class="interests_item">Management</span>
+				<span class="interests_item">Leadership</span>
+			</div>
+		</div>
+   
 
+	</section>
+ </div>
+	
 
     <!-- Footer Start -->
     <?php require_once 'nav/Footer.php' ?>

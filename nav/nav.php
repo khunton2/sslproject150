@@ -1,12 +1,13 @@
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg  navbar-light shadow border-top border-5  sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 sticky-top p-0">
+    
 
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
         <img src="image/SSL-PNG.png" alt="ssllogistics" class="mb-2" style="height: 65px; /* กำหนดความสูงของรูปภาพ */" />
         </a>
-        <!-- <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
-        </button> -->
+        </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.php" class="nav-item nav-link ">Home</a>
@@ -15,7 +16,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a href="ceo.php" class="dropdown-item">Message from ceo</a>
-                        <a href="feature.html" class="dropdown-item">Board of operations</a>
+                        <a href="Board.php" class="dropdown-item">Board of operations</a>
                     </div>
                 </div>
                 <!-- <a href="service.php" class="nav-item nav-link">Services</a> -->
@@ -37,7 +38,7 @@
                 
             </div>
             
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-secondary me-3"></i>02-330-9312</h4>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa-solid fa-phone"></i> 02-330-9312</h4>
         </div>
     </nav>
     <!-- Navbar End -->
