@@ -369,7 +369,8 @@
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="image/03ThitimaPrankaew.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Thitima Prankaew</h5>
+                        <h5 class="mb-0">Thitima </h5>
+                        <h5 class="mb-0">Prankaew</h5>
                         <p>Shipping Manager</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>

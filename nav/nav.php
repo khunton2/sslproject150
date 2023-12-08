@@ -34,7 +34,7 @@
                 <a href="service.php" class="nav-item nav-link">client</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
                 <a href="contact.html" class="nav-item nav-link">activity</a>
-                <a href="contact.html" class="nav-item nav-link">jobs</a>
+                <a href="jobs.php" class="nav-item nav-link">jobs</a>
                 
             </div>
             
