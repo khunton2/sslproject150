@@ -37,7 +37,7 @@
 
       // exit();
 
-         header('Location: 404.html'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
+         header('Location: booking/index.html'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
      }else{ //ถ้า username or password ไม่ถูกต้อง
 
         echo '<script>

@@ -1,33 +1,25 @@
-<?php
-session_start();
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSL logistic</title>
-
-    <link rel="stylesheet" href="css/login.css">
-
+    <meta ceta charset="utf-8">
+    <title>ssllogistics</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-</head>
+    <link href="css/login.css?v=999" rel="stylesheet">
+
+    </head>
 
 <body>
     <div class="login-page">
         <div class="form">
-
-
             <form class="register-form" id="multiStepForm">
 
                 <center>
@@ -66,6 +58,7 @@ session_start();
                     <input type="password" placeholder="Repeat password" id="Repeat password" />
                     <!-- <button onclick="prevStep(3)">Previous</button> -->
                     <button type="submit">Submit</button>
+                    
                 </div>
                 <p class="message">Already registered? <a href="#">Sign In</a></p>
 
@@ -76,13 +69,14 @@ session_start();
 
             <form class="login-form" action="signin_db.php" method="post">
                 <center>
-                    <h1>Sign Up</h1>
+                    <h1 style="font-weight: 700; color:#0477A4;">Welcome back.</h1><br>
                 </center>
-                <span>Username or email address</span>
+                <span class="left-align-text">Username or email address</span>
                 <input type="text" name="com_username" id="com_username" placeholder="username" />
                 <span>Password</span>
                 <input type="password" name="com_password" id="com_password" placeholder="password" />
-                <button>login</button>
+                
+                <button type="supmit" class="btn btn-success">Success</button>
                 <p class="message">Not registered? <a href="#">Create an account</a></p>
             </form>
         </div>

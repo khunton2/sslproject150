@@ -327,8 +327,7 @@
         <div class="container py-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="text-secondary text-uppercase">Our Team</h6>
-                <h1 class="mb-5">Manager Team Members</h1>
-            </div>
+                <h1 class="mb-5">Manager Team Members</h1> 
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item p-4">
@@ -369,8 +368,8 @@
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="image/03ThitimaPrankaew.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Thitima </h5>
-                        <h5 class="mb-0">Prankaew</h5>
+                        <h5 class="mb-0">Thitima Prankaew</h5>
+                        <h5 class="mb-0"></h5>
                         <p>Shipping Manager</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>
