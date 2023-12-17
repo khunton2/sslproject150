@@ -76,7 +76,7 @@
                 <span>Password</span>
                 <input type="password" name="com_password" id="com_password" placeholder="password" />
                 
-                <button type="supmit" class="btn btn-success">Success</button>
+                <button type="supmit" class="btn btn-success">login</button>
                 <p class="message">Not registered? <a href="#">Create an account</a></p>
             </form>
         </div>

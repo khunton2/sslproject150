@@ -30,14 +30,15 @@
        $row = $stmt->fetch(PDO::FETCH_ASSOC);
        //สร้างตัวแปร session
        $_SESSION['id'] = $row['com_id'];
+       $_SESSION['com_name'] = $row['com_name'];
        
 
        //เช็คว่ามีตัวแปร session อะไรบ้าง
-      // print_r($_SESSION);
+      //  print_r($_SESSION);
 
-      // exit();
+      //  exit();
 
-         header('Location: booking/index.html'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
+         header('Location: booking/index.php'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
      }else{ //ถ้า username or password ไม่ถูกต้อง
 
         echo '<script>
