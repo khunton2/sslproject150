@@ -18,9 +18,8 @@
    $com_password = $_POST['com_password'];
     
    //check username  & password
-     $stmt = $conn->prepare("SELECT * FROM tbl_compane WHERE com_username = :com_username AND com_email =:com_username or com_password = :com_password");
+     $stmt = $conn->prepare("SELECT * FROM tbl_compane WHERE com_username = :com_username and com_password = :com_password");
      $stmt->bindParam(':com_username', $com_username , PDO::PARAM_STR);
-     $stmt->bindParam(':com_username', $email , PDO::PARAM_STR);
      $stmt->bindParam(':com_password', $com_password , PDO::PARAM_STR);
      $stmt->execute();
 
@@ -30,15 +29,19 @@
        $row = $stmt->fetch(PDO::FETCH_ASSOC);
        //สร้างตัวแปร session
        $_SESSION['id'] = $row['com_id'];
+       $_SESSION['com_username'] = $row['com_username'];
        $_SESSION['com_name'] = $row['com_name'];
        
 
        //เช็คว่ามีตัวแปร session อะไรบ้าง
-      //  print_r($_SESSION);
+        print_r( $_SESSION); 
+        
 
-      //  exit();
 
-         header('Location: booking/index.php'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
+        exit();
+        
+
+         header('Location: 01.php'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
      }else{ //ถ้า username or password ไม่ถูกต้อง
 
         echo '<script>

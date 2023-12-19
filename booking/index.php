@@ -3,10 +3,10 @@
 // ini_set('display_errors', 1);
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
-session_start();
+
 require_once('config/db.php');
 //เช็คว่ามีตัวแปร session อะไรบ้าง
- print_r($_SESSION);
+//  print_r($_SESSION);
 //exit();
 //สร้างเงื่อนไขตรวจสอบสิทธิ์การเข้าใช้งานจาก session
 ?>
@@ -75,7 +75,8 @@ require_once('config/db.php');
                    
          
                   <br><br>
-                      <button type="button" class="btn btn-info">จองเส้นทางใหม่</button>
+                      <!-- <button type="button" class="btn btn-info">จองเส้นทางใหม่</button> -->
+                      <a href="booking_in.php" type="button" class="btn btn-info">จองเส้นทางใหม่</a>
 
                       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header" style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;">

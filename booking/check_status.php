@@ -21,12 +21,15 @@
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
 
-        <!-- Include Bootstrap JS and dependencies -->
-        
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include Bootstrap JS and dependencies -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -54,125 +57,163 @@
                                 <label class="form-check-label" for="inlineRadio2">นอกประเทศ</label>
                             </div>
                         </div>
-                    </div><br><br>
-                    <div class="alert alert-primary" role="alert" data-bs-toggle="collapse" href="#collapseExample"
-                        aria-expanded="false" aria-controls="collapseExample">
-                       SSL Logistic
-                    </div>
-                    
+                    </div><br>
 
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body">
-                            <table id="myTable" class="display" style="width: 100%;">
-                                <thead>
-                                    <tr>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    SSl logistic
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <table id="myTable" class="table table-striped" style="width: 100%;">
+                                        <thead>
+                                            <tr>
 
-                                        <th>เลขที่</th>
-                                        <th>วันที่/เวลาส่ง</th>
-                                        <th>สินค้า</th>
-                                        <th>จุดส่งสินค้า</th>
-                                        <th>จุดรับสินค้า</th>
-                                        <th>บริษัทขนส่ง</th>
-                                        <th>ประเภทรถ</th>
-                                        <th>สถานะ</th>
-                                        <th>ทะเบียน</th>
-                                        <th>หมายเหตุ</th>
+                                                <th>เลขที่</th>
+                                                <th>วันที่/เวลาส่ง</th>
+                                                <th>สินค้า</th>
+                                                <th>จุดส่งสินค้า</th>
+                                                <th>จุดรับสินค้า</th>
+                                                <th>บริษัทขนส่ง</th>
+                                                <th>ประเภทรถ</th>
+                                                <th>สถานะ</th>
+                                                <th>ทะเบียน</th>
+                                                <th>หมายเหตุ</th>
 
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
 
-                                        <td>01</td>
-                                        <td>System Architect</td>
-                                        <td>Edinburgh</td>
-                                        <td>61</td>
-                                        <td>2011/04/25</td>
-                                        <td>$320,800</td>
-                                        <td>1</td>
-                                        <td>
-                                            <div class="alert alert-danger" role="alert" style="padding: 0px;">
-                                                <center>ยกเลิก</center>
-                                            </div>
-                                        </td>
-                                        <td>1</td>
-                                        <td><a href="img/Booking_doc/BSE23110114.pdf" target="_blank">ไฟล์ใบเสนอราคา</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
+                                                <td>01</td>
+                                                <td>System Architect</td>
+                                                <td>Edinburgh</td>
+                                                <td>61</td>
+                                                <td>2011/04/25</td>
+                                                <td>$320,800</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <div class="alert alert-danger" role="alert" style="padding: 0px;">
+                                                        <center>ยกเลิก</center>
+                                                    </div>
+                                                </td>
+                                                <td>1</td>
+                                                <td><a href="img/Booking_doc/BSE23110114.pdf"
+                                                        target="_blank">ไฟล์ใบเสนอราคา</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
 
-                                        <td>02</td>
-                                        <td>Accountant</td>
-                                        <td>Tokyo</td>
-                                        <td>63</td>
-                                        <td>2011/07/25</td>
-                                        <td>$170,750</td>
-                                        <td>$320,800</td>
-                                        <td>
-                                            <div class="alert alert-danger" role="alert" style="padding: 0px;">
-                                                <center>ยกเลิก</center>
-                                            </div>
-                                        </td>
-                                        <td>1</td>
-                                        <td><a href="#">ไฟล์ใบเสนอราคา</a></td>
-                                    </tr>
-                                    <tr>
+                                                <td>02</td>
+                                                <td>Accountant</td>
+                                                <td>Tokyo</td>
+                                                <td>63</td>
+                                                <td>2011/07/25</td>
+                                                <td>$170,750</td>
+                                                <td>$320,800</td>
+                                                <td>
+                                                    <div class="alert alert-danger" role="alert" style="padding: 0px;">
+                                                        <center>ยกเลิก</center>
+                                                    </div>
+                                                </td>
+                                                <td>1</td>
+                                                <td><a href="#">ไฟล์ใบเสนอราคา</a></td>
+                                            </tr>
+                                            <tr>
 
-                                        <td>03</td>
-                                        <td>Junior Technical Author</td>
-                                        <td>San Francisco</td>
-                                        <td>66</td>
-                                        <td>2009/01/12</td>
-                                        <td>$86,000</td>
-                                        <td>$320,800</td>
-                                        <td>
-                                            <div class="alert alert-success" role="alert" style="padding: 0px;">
-                                                <center>สำเร็จ</center>
-                                            </div>
-                                        </td>
-                                        <td>1</td>
-                                        <td><a href="#">ไฟล์ใบเสนอราคา</a></td>
+                                                <td>03</td>
+                                                <td>Junior Technical Author</td>
+                                                <td>San Francisco</td>
+                                                <td>66</td>
+                                                <td>2009/01/12</td>
+                                                <td>$86,000</td>
+                                                <td>$320,800</td>
+                                                <td>
+                                                    <div class="alert alert-success" role="alert" style="padding: 0px;">
+                                                        <center>สำเร็จ</center>
+                                                    </div>
+                                                </td>
+                                                <td>1</td>
+                                                <td><a href="#">ไฟล์ใบเสนอราคา</a></td>
 
-                                    </tr>
-                                    <tr>
+                                            </tr>
+                                            <tr>
 
-                                        <td>03</td>
-                                        <td>Senior Javascript Developer</td>
-                                        <td>Edinburgh</td>
-                                        <td>22</td>
-                                        <td>2012/03/29</td>
-                                        <td>$433,060</td>
-                                        <td>$320,800</td>
-                                        <td>
-                                            <div class="alert alert-warning" role="alert" style="padding: 0px;">
-                                                <center>รอผล</center>
-                                            </div>
-                                        </td>
-                                        <td>1</td>
-                                        <td><a href="#">ไฟล์ใบเสนอราคา</a></td>
-                                    </tr>
-                                    <tr>
+                                                <td>03</td>
+                                                <td>Senior Javascript Developer</td>
+                                                <td>Edinburgh</td>
+                                                <td>22</td>
+                                                <td>2012/03/29</td>
+                                                <td>$433,060</td>
+                                                <td>$320,800</td>
+                                                <td>
+                                                    <div class="alert alert-warning" role="alert" style="padding: 0px;">
+                                                        <center>รอผล</center>
+                                                    </div>
+                                                </td>
+                                                <td>1</td>
+                                                <td><a href="#">ไฟล์ใบเสนอราคา</a></td>
+                                            </tr>
+                                            <tr>
 
-                                        <td>04</td>
-                                        <td>Accountant</td>
-                                        <td>Tokyo</td>
-                                        <td>33</td>
-                                        <td>2008/11/28</td>
-                                        <td>$162,700</td>
-                                        <td>$320,800</td>
-                                        <td>
-                                            <div class="alert alert-info" role="alert" style="padding: 0px;">
-                                                <center>ขนส่ง</center>
-                                            </div>
-                                        </td>
-                                        <td>1</td>
-                                        <td><a href="#">ไฟล์ใบเสนอราคา</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                                <td>04</td>
+                                                <td>Accountant</td>
+                                                <td>Tokyo</td>
+                                                <td>33</td>
+                                                <td>2008/11/28</td>
+                                                <td>$162,700</td>
+                                                <td>$320,800</td>
+                                                <td>
+                                                    <div class="alert alert-info" role="alert" style="padding: 0px;">
+                                                        <center>ขนส่ง</center>
+                                                    </div>
+                                                </td>
+                                                <td>1</td>
+                                                <td><a href="#">ไฟล์ใบเสนอราคา</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    A
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    ..
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    B
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    ..
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+
+
 
                 </div>
             </div>

@@ -1,5 +1,4 @@
 
-
  <!-- Sidebar -->
  <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -33,7 +32,7 @@
 </li>
 
 <li class="nav-item">
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="check_price.php">
         <i class="fa-solid fa-money-check-dollar"></i>
         <span>ตรวจสอบราคา</span></a>
 </li>
@@ -85,7 +84,7 @@
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php $_SESSION['com_name']?></span><i
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">00</span><i
                         class="fa-solid fa-chevron-down"></i>
                     <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
                     

@@ -25,7 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
         <!-- Include Bootstrap JS and dependencies -->
-        
+
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -38,13 +38,13 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-    <?php require_once 'nav/nevbar.php' ?>
-           
+    <?php require_once 'nav/nevbar.php'?>
+
                 <div class="container-fluid">
                     <div class="card">
                     <div class="card-body">
                         <div class="offcanvas-header" >
-                            
+
                             <div class="offcanvas-title" id="offcanvasRightLabel">
                                 <h6>จองรถ</h6>
                                 <div class="form-check form-check-inline">
@@ -56,7 +56,8 @@
                                 <label class="form-check-label" for="inlineRadio2">นอกประเทศ</label>
                               </div></div>
 
-                            <button type="button" class="btn btn-info">จองเส้นทางใหม่</button>
+                            <!-- <button type="button" class="btn btn-info" href="booking_in.php">จองเส้นทางใหม่</button> -->
+                            <a href="booking_in.php" class="btn btn-info" type="button" >จองเส้นทางใหม่</a>
                           </div><br><br>
     <table id="myTable" class="display" style="width: 100%;">
         <thead>
@@ -69,7 +70,7 @@
                 <th>จุดรับสินค้า</th>
                 <th>จุดส่งสินค้า</th>
                 <th>ผู้รับสินค้า/เบอร์โทรศัพท์</th>
-               
+
             </tr>
         </thead>
         <tbody>
@@ -135,5 +136,5 @@
         });
     </script>
 </body>
- 
+
 </html>
