@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "ssl";
 // $username = "btmcoth_vokse";
 // $password = "9GCyxXoMvq";

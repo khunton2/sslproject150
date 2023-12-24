@@ -14,7 +14,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -27,10 +28,11 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -38,7 +40,8 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -55,22 +58,29 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative mb-5">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="image/BG3.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                <img class="img-fluid" src="image/BG3.jpg" alt="" >
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(6, 3, 21, .5);">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Transport & Logistics Solution</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">#1 Place For Your <span class="text-primary">Logistics</span> Solution</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="login.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Transport & Logistics
+                                    Solution</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4"> <span
+                                        class="text-primary">Logistics</span> Solution</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                                    Transporting the correct product to the correct place at the correct, time, price,
+                                    efficiency and also on the speed in which they deliver
+                                    them is the our main challenge.</p>
+                                <a href="booking/login.php"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">booking Now</a>
                                 <!-- <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-           
+
         </div>
     </div>
     <!-- Carousel End -->
@@ -82,23 +92,28 @@
             <div class="row g-5 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"
+                            style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
                     <h1 class="mb-5">Quick Transport and Logistics Solutions</h1>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-5">We work in the logistics management field make sure that goods and services arrive
+                        in the safe hands of the consumer in a timely manner.
+                        Because The logistics industry is an important driver of economic growth and development.</p>
                     <div class="row g-4 mb-5">
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                             <i class="fa fa-globe fa-3x text-primary mb-3"></i>
                             <h5>Global Coverage</h5>
-                            <p class="m-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.</p>
+                            <p class="m-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.
+                            </p>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
                             <i class="fa fa-shipping-fast fa-3x text-primary mb-3"></i>
                             <h5>On Time Delivery</h5>
-                            <p class="m-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.</p>
+                            <p class="m-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.
+                            </p>
                         </div>
                     </div>
                     <a href="" class="btn btn-primary py-3 px-5">Explore More</a>
@@ -116,9 +131,12 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase mb-3">Some Facts</h6>
                     <h1 class="mb-5">#1 Place To Manage All Of Your Shipments</h1>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-5">Transporting the correct product to the correct place at the correct, time, price,
+                        efficiency and also on the speed in which they deliver
+                        them is the our main challenge.
+                    </p>
                     <div class="d-flex align-items-center">
-                    <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-phone"></i>
                         <div class="ps-4">
                             <h6>Call for any query!</h6>
                             <h3 class="text-primary m-0">02-330-9312</h3>
@@ -130,12 +148,12 @@
                         <div class="col-sm-6">
                             <div class="bg-primary p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
                                 <i class="fa fa-users fa-2x text-white mb-3"></i>
-                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">1401</h2>
                                 <p class="text-white mb-0">Happy Clients</p>
                             </div>
                             <div class="bg-secondary p-4 wow fadeIn" data-wow-delay="0.5s">
                                 <i class="fa fa-ship fa-2x text-white mb-3"></i>
-                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">11</h2>
                                 <p class="text-white mb-0">Complete Shipments</p>
                             </div>
                         </div>
@@ -169,7 +187,7 @@
                         </div>
                         <h4 class="mb-3">Air Freight</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="sky.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -179,7 +197,7 @@
                         </div>
                         <h4 class="mb-3">Ocean Freight</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="ship.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -189,7 +207,7 @@
                         </div>
                         <h4 class="mb-3">Road Freight</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="landservice.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -225,186 +243,197 @@
             </div>
         </div>
     </div> -->
-    <!-- Service End -->
+                <!-- Service End -->
 
 
-    <!-- Feature Start -->
-    <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container feature py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase mb-3">Our Features</h6>
-                    <h1 class="mb-5">We Are Trusted Logistics Company Since 1990</h1>
-                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
-                        <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
-                        <div class="ms-4">
-                            <h5>Worldwide Service</h5>
-                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
-                        <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
-                        <div class="ms-4">
-                            <h5>On Time Delivery</h5>
-                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
-                        <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
-                        <div class="ms-4">
-                            <h5>24/7 Telephone Support</h5>
-                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Feature End -->
-
-
-
-    <!-- Quote Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
-                    <h1 class="mb-5">Request A Free Qoute!</h1>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-                    <div class="d-flex align-items-center">
-                    <i class="fa-solid fa-phone"></i>
-                        <div class="ps-4">
-                            <h6>Call for any query!</h6>
-                            <h3 class="text-primary m-0">+012 345 6789</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                <!-- Feature Start -->
+                <div class="container-fluid overflow-hidden py-5 px-lg-0">
+                    <div class="container feature py-5 px-lg-0">
+                        <div class="row g-5 mx-lg-0">
+                            <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                                <h6 class="text-secondary text-uppercase mb-3">Our Features</h6>
+                                <h1 class="mb-5">We Are Trusted Logistics Company Since 2008</h1>
+                                <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                                    <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
+                                    <div class="ms-4">
+                                        <h5>Worldwide Service</h5>
+                                        <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem
+                                            sit clita duo justo magna erat amet</p>
+                                    </div>
                                 </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
+                                    <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
+                                    <div class="ms-4">
+                                        <h5>On Time Delivery</h5>
+                                        <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem
+                                            sit clita duo justo magna erat amet</p>
+                                    </div>
                                 </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;">
-                                        <option selected>Select A Freight</option>
-                                        <option value="1">Freight 1</option>
-                                        <option value="2">Freight 2</option>
-                                        <option value="3">Freight 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                                    <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
+                                    <div class="ms-4">
+                                        <h5>24/7 Telephone Support</h5>
+                                        <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem
+                                            sit clita duo justo magna erat amet</p>
+                                    </div>
                                 </div>
                             </div>
-                        </form>
+                            <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s"
+                                style="min-height: 400px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
+                                        style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- Quote End -->
+                <!-- Feature End -->
 
 
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">Our Team</h6>
-                <h1 class="mb-5">Manager Team Members</h1> 
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="image/01KamonchanokKonngoen.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Kamonchanok Konngoen</h5>
-                        <p>Human Resources Manager</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="image/02PhatnareekanKhamwong.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Phatnareekan Khamwong</h5>
-                        <p>Accounting Manager</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="image/03ThitimaPrankaew.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Thitima Prankaew</h5>
-                        <h5 class="mb-0"></h5>
-                        <p>Shipping Manager</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="image/04PiyametMungkornwong.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Piyamet Mungkornwong</h5>
-                        <p>Warehourse Manager</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
 
-    <!-- Testimonial Start -->
-    <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <!-- Quote Start -->
+                <div class="container-xxl py-5">
+                    <div class="container py-5">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                                <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
+                                <h1 class="mb-5">Request A Free Qoute!</h1>
+                                <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
+                                    amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                                    justo erat amet</p>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <div class="ps-4">
+                                        <h6>Call for any query!</h6>
+                                        <h3 class="text-primary m-0">+012 345 6789</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                                    <form>
+                                        <div class="row g-3">
+                                            <div class="col-12 col-sm-6">
+                                                <input type="text" class="form-control border-0" placeholder="Your Name"
+                                                    style="height: 55px;">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="email" class="form-control border-0"
+                                                    placeholder="Your Email" style="height: 55px;">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="text" class="form-control border-0"
+                                                    placeholder="Your Mobile" style="height: 55px;">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <select class="form-select border-0" style="height: 55px;">
+                                                    <option selected>Select A Freight</option>
+                                                    <option value="1">Freight 1</option>
+                                                    <option value="2">Freight 2</option>
+                                                    <option value="3">Freight 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12">
+                                                <textarea class="form-control border-0"
+                                                    placeholder="Special Note"></textarea>
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Quote End -->
+
+
+                <!-- Team Start -->
+                <div class="container-xxl py-5">
+                    <div class="container py-5">
+                        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                            <h6 class="text-secondary text-uppercase">Our Team</h6>
+                            <h1 class="mb-5">Manager Team Members</h1>
+                            <div class="row g-4">
+                                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="team-item p-4">
+                                        <div class="overflow-hidden mb-4">
+                                            <img class="img-fluid" src="image/01KamonchanokKonngoen.jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Kamonchanok Konngoen</h5>
+                                        <p>Human Resources Manager</p>
+                                        <div class="btn-slide mt-1">
+                                            <i class="fa fa-share"></i>
+                                            <span>
+                                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a href=""><i class="fab fa-twitter"></i></a>
+                                                <a href=""><i class="fab fa-instagram"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="team-item p-4">
+                                        <div class="overflow-hidden mb-4">
+                                            <img class="img-fluid" src="image/02PhatnareekanKhamwong.jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Phatnareekan Khamwong</h5>
+                                        <p>Accounting Manager</p>
+                                        <div class="btn-slide mt-1">
+                                            <i class="fa fa-share"></i>
+                                            <span>
+                                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a href=""><i class="fab fa-twitter"></i></a>
+                                                <a href=""><i class="fab fa-instagram"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="team-item p-4">
+                                        <div class="overflow-hidden mb-4">
+                                            <img class="img-fluid" src="image/03ThitimaPrankaew.jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Thitima Prankaew</h5>
+                                        <h5 class="mb-0"></h5>
+                                        <p>Shipping Manager</p>
+                                        <div class="btn-slide mt-1">
+                                            <i class="fa fa-share"></i>
+                                            <span>
+                                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a href=""><i class="fab fa-twitter"></i></a>
+                                                <a href=""><i class="fab fa-instagram"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                                    <div class="team-item p-4">
+                                        <div class="overflow-hidden mb-4">
+                                            <img class="img-fluid" src="image/04PiyametMungkornwong.jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Piyamet Mungkornwong</h5>
+                                        <p>Warehourse Manager</p>
+                                        <div class="btn-slide mt-1">
+                                            <i class="fa fa-share"></i>
+                                            <span>
+                                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a href=""><i class="fab fa-twitter"></i></a>
+                                                <a href=""><i class="fab fa-instagram"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team End -->
+
+                    <!-- Testimonial Start -->
+                    <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="text-center">
                 <h6 class="text-secondary text-uppercase">Testimonial</h6>
@@ -458,29 +487,34 @@
             </div>
         </div>
     </div> -->
-    <!-- Testimonial End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
 
-  
-    <!-- Footer Start -->
-    <?php require_once 'nav/Footer.php' ?>
-    <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+                    <!-- Footer Start -->
+                    <?php require_once 'nav/Footer.php' ?>
+                    <!-- Footer End -->
+
+                    <!-- Back to Top -->
+                    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i
+                            class="bi bi-arrow-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+                    <!-- JavaScript Libraries -->
+                    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+                    <script src="lib/wow/wow.min.js"></script>
+                    <script src="lib/easing/easing.min.js"></script>
+                    <script src="lib/waypoints/waypoints.min.js"></script>
+                    <script src="lib/counterup/counterup.min.js"></script>
+                    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+                    <!-- Template Javascript -->
+                    <script src="js/main.js"></script>
 </body>
 
 </html>

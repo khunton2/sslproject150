@@ -16,24 +16,24 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a href="ceo.php" class="dropdown-item">Message from ceo</a>
-                        <a href="Board.php" class="dropdown-item">Board of operations</a>
+                        <a href="about.php" class="dropdown-item">About-Us</a>
                     </div>
                 </div>
                 <!-- <a href="service.php" class="nav-item nav-link">Services</a> -->
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu fade-up m-0">
-                        <a href="price.html" class="dropdown-item">Our services</a>
-                        <a href="feature.html" class="dropdown-item">Logistic System</a>
-                        <a href="feature.html" class="dropdown-item">Gross-Docking</a>
-                        <a href="feature.html" class="dropdown-item">custom clearance</a>
-                        <a href="feature.html" class="dropdown-item">waste</a>
+                        <a href="#" class="dropdown-item">Our services</a>
+                        <a href="logisticsystem.php" class="dropdown-item">Logistic System</a>
+                        <a href="crossdock.php" class="dropdown-item">Gross-Docking</a>
+                        <a href="custom.php" class="dropdown-item">custom clearance</a>
+                        <a href="waste.php" class="dropdown-item">waste</a>
                         
                     </div>
                 </div>
                 <a href="client.php" class="nav-item nav-link">client</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
-                <a href="activity.php" class="nav-item nav-link">activity</a>
+                <!-- <a href="activity.php" class="nav-item nav-link">activity</a> -->
                 <a href="jobs.php" class="nav-item nav-link">jobs</a>
                 
             </div>

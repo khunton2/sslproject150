@@ -35,7 +35,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/about.scss" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <style>
+    /* CSS เพื่อจัดวางภาพตรงกลาง */
+    .centered-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        /* สูงของหน้าจอทั้งหมด */
+    }
+    </style>
 
 </head>
 
@@ -53,46 +66,20 @@
     <!-- Navbar Start -->
     <?php require_once 'nav/nav.php' ?>
     <!-- Navbar End -->
-	
-    <div class="container"></div>
-	<section class="profile_container">
 
-    <section class="intro">
-  <div class="container">
-    <h1>About US &darr;</h1>
-  </div>
-</section>
-
-<section class="timeline">
-  <ul>
-    <li>
-      <div>
-        <img src="image/SSL-PNG.png" style="width: 14rem;">
-        <time>2008</time> AStart SSL Company Freight Forwarder Customs Clearance Trucking service Warehouse Management Cross Dock Distribution
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>2009</time> Join With WCA which the world's most powerful grouping of Independent freight forwarders with 3500 member offices in more than 500 cities
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>2012</time> Waste Paper SSL deal with Top 10 of the largest supplier of waste paper material Supply from US, Russia, Japan, Singapore and domestics Thailand.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>2018</time> Start Sahapan Trading Group Sourcing Waste paper supply to Double A and other mills in Domestics. We also Export recycle pulp produced from Oversea sources.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>2020</time> Recycle Business Develop mobile application for collecting all scrap and recycle waste supply reprocessing with environment concern by Join venture with "Recycle Day" Mobile application
-      </div>
-    </li>
+    <div class="centered-image">
+        <img src="img/ship/ship00.png" alt="" style="width: 100%;">
+    </div>
+    <div class="centered-image">
+        <img src="img/ship/ship01.png" alt="" style="width: 100%;">
+    </div>
+    <div class="centered-image">
+        <img src="img/ship/ship02.png" alt="" style="width: 100%;">
+    </div>
     
-  </ul>
+
+
+
     <!-- Footer Start -->
     <?php require_once 'nav/Footer.php' ?>
     <!-- Footer End -->
@@ -113,7 +100,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="js/about.js"></script>
 </body>
 
 </html>

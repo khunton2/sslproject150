@@ -1,4 +1,6 @@
-
+<?php session_start();
+require_once 'config/db.php';
+ ?>
  <!-- Sidebar -->
  <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -84,9 +86,10 @@
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">00</span><i
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $_SESSION['com_username'];?>00</span><i
                         class="fa-solid fa-chevron-down"></i>
                     <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                    <? print_r("test");?>
                     
                 </a>
                 <!-- Dropdown - User Information -->

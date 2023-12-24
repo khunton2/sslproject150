@@ -1,12 +1,11 @@
 <?php
-
-// ini_set('display_errors', 1);
-// ini_set('display_startup_errors', 1);
-// error_reporting(E_ALL);
-
+  // ini_set('display_errors', 1);
+  // ini_set('display_startup_errors', 1);
+  // error_reporting(E_ALL);
+session_start();
 require_once('config/db.php');
 //เช็คว่ามีตัวแปร session อะไรบ้าง
-//  print_r($_SESSION);
+ print_r($_SESSION);
 //exit();
 //สร้างเงื่อนไขตรวจสอบสิทธิ์การเข้าใช้งานจาก session
 ?>
@@ -72,10 +71,9 @@ require_once('config/db.php');
                           <span class="sr-only">Next</span>
                         </a>
                       </div>
-                   
-         
                   <br><br>
                       <!-- <button type="button" class="btn btn-info">จองเส้นทางใหม่</button> -->
+                    
                       <a href="booking_in.php" type="button" class="btn btn-info">จองเส้นทางใหม่</a>
 
                       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -84,7 +82,7 @@ require_once('config/db.php');
                           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                          ...
+                         
                         </div>
                       </div>
                     
